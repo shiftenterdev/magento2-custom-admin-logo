@@ -1,0 +1,13 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-login" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      <update handle="styles" />
+      <head>
+            <title>Admin Login</title>
+      </head>
+      <body>
+            <referenceBlock name="logo">
+                  <arguments>
+                        <argument name="logo_image_src" xsi:type="string">images/login-logo.png</argument>
+                  </arguments>
+            </referenceBlock>
+      </body>
+</page>
